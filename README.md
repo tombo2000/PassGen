@@ -2,7 +2,7 @@
 Description
 This script generates a specified number of passwords with a specified length, using a combination of uppercase letters, lowercase letters, numbers, and special characters. The user can choose to include or exclude each of these character types, as well as exclude similar characters (e.g. 'i' and 'I', '1' and 'l', etc.).
 
-Usage
+*USAGE:
 Run the script in a Python environment.
 Enter the number of passwords to generate.
 Enter the desired password length.
@@ -10,7 +10,7 @@ Answer the prompts to include or exclude each character type (uppercase, lowerca
 Answer the prompt to exclude similar characters.
 The script will generate the specified number of passwords and print them to the console.
 
-Script Options
+*SCRIPT OPTIONS: 
 num_passwords: The number of passwords to generate.
 password_length: The desired length of each password.
 include_uppercase: Whether to include uppercase letters (default: True).
@@ -19,7 +19,7 @@ include_numbers: Whether to include numbers (default: True).
 include_special_chars: Whether to include special characters (default: True).
 exclude_similar_chars: Whether to exclude similar characters (default: True).
 
-Example Output
+*EXAMPLE OUTPUT: 
 Enter the number of passwords to generate: 5
 Enter the desired password length: 12
 Include uppercase letters? (y/n): y
@@ -34,5 +34,5 @@ P3o$eN#1lI2c
 L9a$eK#4mJ8d
 E1c$eF#6gH3b
 
-License
+*LICENSE: 
 This script is licensed under the MIT License. See the LICENSE file for details.
